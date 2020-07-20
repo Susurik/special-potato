@@ -1,0 +1,12 @@
+.tab-bar {
+    background-color: rgb(231, 218, 218);
+}
+
+#tab-content {
+    background-color: white;
+}
+
+#cards {
+    display: table;
+    margin: 0 auto;
+}
