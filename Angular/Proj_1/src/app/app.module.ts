@@ -12,6 +12,7 @@ import { CardsComponent } from './cards/cards.component';
 import { CurrencyModule } from './currency/currency.module';
 import{ DataService} from './data.service';
 import { ProfileService} from './profile.service';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProfileService} from './profile.service';
     TabsComponent,
     GridComponent,
     CardsComponent,
+    NewsComponent,
     // CurrencyComponent
   ],
   imports: [
