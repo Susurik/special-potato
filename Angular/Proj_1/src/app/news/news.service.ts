@@ -10,7 +10,7 @@ const API_KEY = environment.apiKey; //definejam API_KEY
 })
 export class NewsService {
 
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient) { } //injecting httpClient
 
 getData(url){ //definejam funkciju getData
   return this.http.get(`${API_URL}/${url}&apiKey=${API_KEY}`) //links uz saitu ko atgriez getData funkcija
