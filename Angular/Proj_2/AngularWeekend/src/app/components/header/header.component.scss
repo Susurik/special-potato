@@ -1,0 +1,56 @@
+.active-link{
+    background-color: none;
+    }
+
+.header-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.main-nav {
+    border-bottom: black;
+    border-bottom: solid;
+    position: absolute;
+    bottom: 0;
+    left: 35%; // IDK HOW TO CENTER THIS !!!
+}
+
+.main-nav a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:inherit;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    float: left;
+    
+}
+
+.main-nav a:hover {
+    background-color: #ddd;
+    font-weight: 900;
+    border-radius: 15px;
+  }
+
+
+img {
+    left: 0;
+}
+
+.timer {
+    height: 40px;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+#center-timer {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 20px;
+}
