@@ -10,6 +10,11 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TimerComponent } from './components/addons/timer/timer.component';
+import { LoginComponent } from './components/pages/login/login.component';
+import { RegisterComponent } from './components/pages/register/register.component';
+import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
+import {FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,13 +23,19 @@ import { TimerComponent } from './components/addons/timer/timer.component';
     AboutComponent,
     HeaderComponent,
     FooterComponent,
-    TimerComponent
+    TimerComponent,
+    LoginComponent,
+    RegisterComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
