@@ -1,25 +1,3 @@
-// import { NgModule } from '@angular/core';
-// import { CommonModule } from '@angular/common';
-// import {MatButtonModule} from '@angular/material/button';
-// import {MatTooltipModule} from '@angular/material/tooltip';
-// import {MatGridListModule} from '@angular/material/grid-list';
-
-
-
-// @NgModule({
-//   exports: [
-//     MatButtonModule,
-//     MatTooltipModule,
-//     MatGridListModule,
-//   ],
-//   declarations: [],
-//   imports: [
-//     CommonModule
-//   ]
-// })
-// export class MaterialModule { }
-
-import { CommonModule } from '@angular/common';
 import {NgModule} from '@angular/core';
 import {A11yModule} from '@angular/cdk/a11y';
 import {ClipboardModule} from '@angular/cdk/clipboard';
@@ -109,10 +87,7 @@ import {MatTreeModule} from '@angular/material/tree';
     MatTreeModule,
     PortalModule,
     ScrollingModule,
-  ],
-  imports: [
-      CommonModule
-   ]
+  ]
 })
 export class MaterialModule {}
 

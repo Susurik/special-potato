@@ -15,6 +15,8 @@ import { RegisterComponent } from './components/pages/register/register.componen
 import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
 import {FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { NewsComponent } from './components/pages/news/news.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
     TimerComponent,
     LoginComponent,
     RegisterComponent,
-    DashboardComponent
+    DashboardComponent,
+    NewsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,6 @@ export const environment = {
   apiKey: '1e97b23feccc4100a90392d8defb540f',
   ratesUrl: 'https://api.exchangeratesapi.io/history?start_at=2018-01-01&end_at=2018-09-01&symbols={symbols}&base={base}'
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
