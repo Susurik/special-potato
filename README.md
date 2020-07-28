@@ -8,3 +8,6 @@ https://fahmidasclassroom.com/register-and-login-system-using-angular-8-php-and-
 
 
 https://app.infinityfree.net/accounts/epiz_26371845
+
+
+nmap  //ports
