@@ -14,3 +14,8 @@ nmap  //ports
 
 
 %GIU2Q2W!@BbxNdcvSXD
+
+mysql: susurik
+
+
+pw:MYLc/&_CUbO1oxni
