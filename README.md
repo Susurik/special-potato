@@ -25,3 +25,6 @@ https://nestjs.com/
 
 
 https://edibo-at.000webhostapp.com
+
+
+https://developer.okta.com/blog/2019/08/16/angular-mysql-express
